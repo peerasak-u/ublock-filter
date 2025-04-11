@@ -37,8 +37,39 @@
 ! Last modified: 2025-04-11
 ! Expires: 1 day
 
-! Add movie-related filters below
+! Apr 11, 2025 https://037hd.tv
+037hd.tv##.ad
+037hd.tv##.col-in4 > .adt
+037hd.tv##.contentmovie > .adt
+037hd.tv##.content-col1
+037hd.tv##.col-in1
+037hd.tv##.col-in3
+037hd.tv##.col-in2
+037hd.tv##div.movietext:nth-of-type(6)
+037hd.tv##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments
+037hd.tv###welcome
 
+! Apr 11, 2025 https://www.kubhd.com
+www.kubhd.com##.rounded.lg\:p-6.py-4.w-full.mb-4.content_bg
+||www.kubhd.com/wp-content/uploads/202*.gif$image
+www.kubhd.com##.px-2.pt-1.lg\:w-3\/4.md\:w-2\/3.w-full > div > .mb-4.border-gray-800.border.bg-gray-900.rounded-xl.w-full
+www.kubhd.com##.border-gray-700.rounded.border.mb-4.rounded-lg.bg-gray-800.mx-auto.my-4.container
+www.kubhd.com##.overflow-x-auto.max-h-96.mb-4.rounded-xl.border-gray-800.border.bg-gray-900.format-blue.lg\:format-lg.sm\:format-base.format-sm.format.w-full.mx-auto.post-content
+www.kubhd.com###wpdevar_comment_1
+www.kubhd.com##.px-2.pt-1.lg\:w-3\/4.md\:w-2\/3.w-full > div > .border-gray-800.border.bg-gray-900.rounded-xl.w-full
+
+! Apr 11, 2025 https://www.037hdmovie.com
+www.037hdmovie.com###ads-index
+www.037hdmovie.com###ads-sidebar
+www.037hdmovie.com###ads-single
+www.037hdmovie.com###ads-bottom-player
+www.037hdmovie.com###ads-sidebar-single-top
+www.037hdmovie.com###ads-popup
+www.037hdmovie.com###ads-sidebar-single-bottom
+
+! Ads videos
+||googles.video/c2FnYW1lc2FnYW1lc2FnYW1lc2FnYW1el/*.+(mp4|webm|mov|avi|flv|m4v|mkv)$media
+||rsc.cdn77.org/videos/ads-$media
 ! === End of movie filters ===
 
 
@@ -49,7 +80,22 @@
 ! Last modified: 2025-04-11
 ! Expires: 1 day
 
-! Add series-related filters below
+! Dec 23, 2024 https://www.serie-day.com
+www.serie-day.com##.adlf > .adhl
+www.serie-day.com##.right-menu > .adhl
+www.serie-day.com##.ad
+www.serie-day.com##.content-col2 > .adcen
+www.serie-day.com##.adl
+www.serie-day.com##.mcommanr
+www.serie-day.com##.content-col1
+www.serie-day.com##.col-in1
+www.serie-day.com##.col-in3
+www.serie-day.com##.col-in4
+www.serie-day.com##.content-site > .container
+www.serie-day.com##div.movie:nth-of-type(7)
+www.serie-day.com##div.movietext:nth-of-type(6)
+
+
 
 ! === End of series filters ===
 
