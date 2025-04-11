@@ -1,10 +1,54 @@
 ! Title: Thai Content Filters (Combined)
 ! Description: Filters for Thai movie, manga, anime, and series websites.
-! Homepage: [Link to your repo - to be added later]
+! Homepage: https://github.com/peerasak/ublock-filter-th # Replace with your actual repo URL if different
 ! Last modified: 2025-04-11
 ! Expires: 1 day (update frequency)
 
-!#include movie.txt
-!#include manga.txt
-!#include anime.txt
-!#include series.txt
+
+! === Start of anime filters ===
+
+! Title: Anime Filters (TH)
+! Description: Filters specifically for Thai anime streaming/related sites.
+! Last modified: 2025-04-11
+! Expires: 1 day
+
+! Add anime-related filters below
+
+! === End of anime filters ===
+
+
+! === Start of manga filters ===
+
+! Title: Manga Filters (TH)
+! Description: Filters specifically for Thai manga reading/related sites.
+! Last modified: 2025-04-11
+! Expires: 1 day
+
+! Add manga-related filters below
+
+! === End of manga filters ===
+
+
+! === Start of movie filters ===
+
+! Title: Movie Filters (TH)
+! Description: Filters specifically for Thai movie streaming/related sites.
+! Last modified: 2025-04-11
+! Expires: 1 day
+
+! Add movie-related filters below
+
+! === End of movie filters ===
+
+
+! === Start of series filters ===
+
+! Title: Series Filters (TH)
+! Description: Filters specifically for Thai series streaming/related sites.
+! Last modified: 2025-04-11
+! Expires: 1 day
+
+! Add series-related filters below
+
+! === End of series filters ===
+

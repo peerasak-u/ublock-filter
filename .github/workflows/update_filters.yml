@@ -1,0 +1,42 @@
+name: Update uBlock Filters
+
+on:
+  push:
+    branches:
+      - main # Or your default branch name
+
+jobs:
+  update-filters:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Make update script executable
+        run: chmod +x ./update_filters.sh
+
+      - name: Run update script
+        run: ./update_filters.sh
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          if git diff --quiet ublock-th-filters.txt; then
+            echo "No changes to commit"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in ublock-th-filters.txt"
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git add ublock-th-filters.txt
+          git commit -m "Automated update of ublock-th-filters.txt"
+          git push
