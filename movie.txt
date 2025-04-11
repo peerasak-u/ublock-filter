@@ -1,0 +1,6 @@
+! Title: Movie Filters (TH)
+! Description: Filters specifically for Thai movie streaming/related sites.
+! Last modified: 2025-04-11
+! Expires: 1 day
+
+! Add movie-related filters below

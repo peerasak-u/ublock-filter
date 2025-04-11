@@ -1,0 +1,10 @@
+! Title: Thai Content Filters (Combined)
+! Description: Filters for Thai movie, manga, anime, and series websites.
+! Homepage: [Link to your repo - to be added later]
+! Last modified: 2025-04-11
+! Expires: 1 day (update frequency)
+
+!#include movie.txt
+!#include manga.txt
+!#include anime.txt
+!#include series.txt

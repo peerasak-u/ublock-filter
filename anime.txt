@@ -1,0 +1,6 @@
+! Title: Anime Filters (TH)
+! Description: Filters specifically for Thai anime streaming/related sites.
+! Last modified: 2025-04-11
+! Expires: 1 day
+
+! Add anime-related filters below
