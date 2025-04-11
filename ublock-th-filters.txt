@@ -12,7 +12,8 @@
 ! Last modified: 2025-04-11
 ! Expires: 1 day
 
-! Add anime-related filters below
+! Mar 8, 2025 https://037-anime.com
+037-anime.com##.mix-bnn-widget.mb-4.widget
 
 ! === End of anime filters ===
 
