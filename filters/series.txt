@@ -3,4 +3,19 @@
 ! Last modified: 2025-04-11
 ! Expires: 1 day
 
-! Add series-related filters below
+! Dec 23, 2024 https://www.serie-day.com
+www.serie-day.com##.adlf > .adhl
+www.serie-day.com##.right-menu > .adhl
+www.serie-day.com##.ad
+www.serie-day.com##.content-col2 > .adcen
+www.serie-day.com##.adl
+www.serie-day.com##.mcommanr
+www.serie-day.com##.content-col1
+www.serie-day.com##.col-in1
+www.serie-day.com##.col-in3
+www.serie-day.com##.col-in4
+www.serie-day.com##.content-site > .container
+www.serie-day.com##div.movie:nth-of-type(7)
+www.serie-day.com##div.movietext:nth-of-type(6)
+
+
