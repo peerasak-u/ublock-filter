@@ -9,7 +9,7 @@ current_date=$(date +%Y-%m-%d)
 
 # Write the header to the output file
 cat > "$output_file" << EOL
-! Title: Thai Content Filters (Combined)
+! Title: Thai Content Filters
 ! Description: Filters for Thai movie, manga, anime, and series websites.
 ! Homepage: https://github.com/peerasak/ublock-filter-th # Replace with your actual repo URL if different
 ! Last modified: $current_date
