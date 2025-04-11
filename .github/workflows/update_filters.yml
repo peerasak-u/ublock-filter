@@ -8,6 +8,9 @@ on:
 jobs:
   update-filters:
     runs-on: ubuntu-latest
+    # Grant write permissions to the GITHUB_TOKEN for this job
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,22 +24,13 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com' # Keep this for the commit author info
 
-      - name: Check for changes
-        id: git-check
-        run: |
-          if git diff --quiet ublock-th-filters.txt; then
-            echo "No changes to commit"
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "Changes detected in ublock-th-filters.txt"
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit and push changes
-        if: steps.git-check.outputs.changed == 'true'
-        run: |
-          git add ublock-th-filters.txt
-          git commit -m "Automated update of ublock-th-filters.txt"
-          git push
+      - name: Commit and push changes # Replaced manual steps with action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Automated update of ublock-th-filters.txt
+          file_pattern: ublock-th-filters.txt # Only commit changes to this file
+          commit_user_name: github-actions[bot] # Optional: defaults to the action user
+          commit_user_email: github-actions[bot]@users.noreply.github.com # Optional: defaults to the action user email
+          commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com> # Optional: defaults to the action user
