@@ -40,4 +40,6 @@ www.037hdmovie.com###ads-sidebar-single-bottom
 ! Ads videos
 ||googles.video/c2FnYW1lc2FnYW1lc2FnYW1lc2FnYW1el/*.+(mp4|webm|mov|avi|flv|m4v|mkv)$media
 ||rsc.cdn77.org/videos/ads-$media
-||videos.cdnstorage-1.top/ufafat.+(mp4|webm|mov|avi|flv|m4v|mkv)$media
+||videos.cdnstorage-1.top/ufafat-v.mp4$media
+||videos.cdnstorage-1.top/huayhit88.mp4$media
+||videos.cdnstorage-1.top/sa168.mp4$media
