@@ -37,6 +37,10 @@
 ! Last modified: 2025-04-11
 ! Expires: 1 day
 
+! 2024-05-05 https://www.123-hd.com
+www.123-hd.com###banner_top
+www.123-hd.com##div.clearfix.htmlwrap:nth-of-type(16)
+
 ! Apr 11, 2025 https://037hd.tv
 037hd.tv##.ad
 037hd.tv##.col-in4 > .adt
@@ -70,6 +74,7 @@ www.037hdmovie.com###ads-sidebar-single-bottom
 ! Ads videos
 ||googles.video/c2FnYW1lc2FnYW1lc2FnYW1lc2FnYW1el/*.+(mp4|webm|mov|avi|flv|m4v|mkv)$media
 ||rsc.cdn77.org/videos/ads-$media
+
 ! === End of movie filters ===
 
 
