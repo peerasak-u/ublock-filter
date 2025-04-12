@@ -1,7 +1,7 @@
 ! Title: Thai Content Filters
 ! Description: Filters for Thai movie, manga, anime, and series websites.
 ! Homepage: https://github.com/peerasak/ublock-filter-th # Replace with your actual repo URL if different
-! Last modified: 2025-04-11
+! Last modified: 2025-04-12
 ! Expires: 1 day (update frequency)
 
 
@@ -88,21 +88,20 @@ www.037hdmovie.com###ads-sidebar-single-bottom
 ! Last modified: 2025-04-11
 ! Expires: 1 day
 
-! Dec 23, 2024 https://www.serie-day.com
-www.serie-day.com##.adlf > .adhl
-www.serie-day.com##.right-menu > .adhl
-www.serie-day.com##.ad
-www.serie-day.com##.content-col2 > .adcen
-www.serie-day.com##.adl
-www.serie-day.com##.mcommanr
-www.serie-day.com##.content-col1
-www.serie-day.com##.col-in1
-www.serie-day.com##.col-in3
-www.serie-day.com##.col-in4
-www.serie-day.com##.content-site > .container
-www.serie-day.com##div.movie:nth-of-type(7)
-www.serie-day.com##div.movietext:nth-of-type(6)
-
+! Apr 12, 2025 https://www.serieday-hd.com
+www.serieday-hd.com##.ad
+www.serieday-hd.com##.content-col2 > .adcen
+www.serieday-hd.com##.right-menu > .adhl
+www.serieday-hd.com##.adlf > .adhl
+www.serieday-hd.com##.adl
+www.serieday-hd.com##.mcommanr
+www.serieday-hd.com##.col-in1
+www.serieday-hd.com##.col-in4
+www.serieday-hd.com##.col-in3
+www.serieday-hd.com##.content-col1
+www.serieday-hd.com##div.movietext:nth-of-type(6)
+www.serieday-hd.com##div.movie:nth-of-type(7)
+www.serieday-hd.com##.content-site
 
 
 ! === End of series filters ===
