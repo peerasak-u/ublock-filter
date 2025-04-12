@@ -15,6 +15,15 @@
 ! Mar 8, 2025 https://037-anime.com
 037-anime.com##.mix-bnn-widget.mb-4.widget
 
+animeyuzu.com###contenedor > div.module:last-child > div.module_home_x:first-child > center > div.code-block.code-block-1:first-child
+animeyuzu.com###single > div.module_home_x:first-child > center > div.code-block.code-block-1:first-child
+animeyuzu.com###single > div.module_home_x:nth-child(2) > center > div.code-block.code-block-1:first-child
+animeyuzu.com###single > div.content:nth-child(3) > center:nth-child(5) > div.code-block.code-block-3:first-child
+animeyuzu.com###single > div.content:nth-child(3) > center:nth-child(2) > div.code-block.code-block-2:first-child
+animeyuzu.com###single > div.content div[id*='ads']
+animeyuzu.com###single > div.content:nth-child(2) > center:nth-child(3) > div.code-block.code-block-4:first-child > a:last-child > img.animekimi-banner
+animeyuzu.com##.animekimi-banner
+
 ! === End of anime filters ===
 
 
@@ -26,6 +35,50 @@
 ! Expires: 1 day
 
 ! Add manga-related filters below
+
+moodtoon.net###content > div.blox.mlb.kln:first-child > div.mt-ad.text-center
+moodtoon.net###ads_05 > div > a:last-child > img.ads-resm.loading
+moodtoon.net###content > div.wrapper > div.mt-ad.text-center:first-child
+moon-toon.com###content > div.blox.mlb.kln:first-child > div.mt-ad.text-center
+manga168.net###content > div.wrapper > div.dessert-frame:first-child > center
+manga168.net###post-661449 > div.entry-content.entry-content-single.maincontent:nth-child(4) > div.kln:nth-child(3)
+manga168.net###ads_fix_footer > div > a > img
+manga168.net###post-666356 > div.entry-content.entry-content-single.maincontent:nth-child(4) > div.kln:nth-child(3)
+manga168.net###post-670619 > div.entry-content.entry-content-single.maincontent:nth-child(4) > div.kln:nth-child(3) > a > img
+mangaza.net###content > div.blox.mlb.kln:first-child > div.mt-ad.text-center
+mangaza.net###ads_05 > div > a:last-child > img.ads-resm.loading
+up-manga.com###content > div.wrapper > div.center_upmangasolo3:nth-child(36) > a > img
+up-manga.com###content > div.wrapper > div.center_upmanga3
+up-manga.com###content > div.wrapper > div#sticky-bottom
+up-manga.com###content > div.wrapper > div#sticky-bottom2
+up-manga.com###content > div.wrapper > div#sticky-bottom3
+moodtoon.net###ads_03 > div > a:last-child > img.ads-resm.loading
+moodtoon.net###ads_04 > div > a:last-child > img.loading
+moodtoon.net###ads_02 > div > a:last-child > img.ads-resm.loading
+up-manga.com###content > div.wrapper > div.center_upmangasolo3:nth-child(46)
+xn--72cas2cj6a4hf4b5a8oc.com###content > div.wrapper > div.th-ban.text-center:first-child
+xn--72cas2cj6a4hf4b5a8oc.com###ads_03 > div > a:last-child > img.ads-resm.loading
+xn--72cas2cj6a4hf4b5a8oc.com###ads_02 > div > a:last-child > img.ads-resm.loading
+xn--72cas2cj6a4hf4b5a8oc.com###ads_04 > div > a:last-child > img.loading
+go-manga.com###content > div.wrapper > div.center_gomanga3:nth-child
+go-manga.com###ads_03 > div > a:last-child > img.ads-resm.loading
+go-manga.com###ads_04 > div > a:last-child > img.loading
+go-manga.com###ads_02 > div > a:last-child > img.ads-resm.loading
+go-manga.com##.center_gomanga3
+go-manga.com##div.center_gomangasolo3
+go-manga.com##div.center_gomanga3
+go-manga.com###content > div.wrapper div.center_gomanga3
+go-manga.com###content > div.wrapper > div.center_gomanga3
+go-manga.com###content > div.wrapper > div.center_gomangasolo3:nth-child(50)
+go-manga.com###sticky-bottom2
+go-manga.com###sticky-bottom3 > div.sticky-bottom3-inside:last-child > a > img.lazyload
+go-manga.com###sticky-bottom > a.sticky-close:first-child
+xenon-manga.com###content > div.wrapper > center:first-child > a:last-child > img
+xenon-manga.com###content > div.wrapper > center
+god-manga.com##header.header:nth-child(47)
+god-manga.com###wbnn > span.wbnn-close:first-child
+god-manga.com##header.header:nth-child(50) > div.blox.mlb.kln:nth-child(4) > div.dessert-frame > center
+up-manga.com###content > div.wrapper > div.center_upmangaza3
 
 ! === End of manga filters ===
 
