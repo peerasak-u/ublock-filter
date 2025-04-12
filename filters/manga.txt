@@ -48,3 +48,6 @@ god-manga.com##header.header:nth-child(47)
 god-manga.com###wbnn > span.wbnn-close:first-child
 god-manga.com##header.header:nth-child(50) > div.blox.mlb.kln:nth-child(4) > div.dessert-frame > center
 up-manga.com###content > div.wrapper > div.center_upmangaza3
+go-manga.com###content > div.wrapper > div.center_gomanga
+go-manga.com###sticky-bottom2
+go-manga.com###sticky-bottom3
