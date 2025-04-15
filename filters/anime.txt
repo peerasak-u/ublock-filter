@@ -14,3 +14,7 @@ animeyuzu.com###single > div.content:nth-child(3) > center:nth-child(2) > div.co
 animeyuzu.com###single > div.content div[id*='ads']
 animeyuzu.com###single > div.content:nth-child(2) > center:nth-child(3) > div.code-block.code-block-4:first-child > a:last-child > img.animekimi-banner
 animeyuzu.com##.animekimi-banner
+anime-yuzu.com##[class*="ads"]
+anime-yuzu.com##[id*="ads"]
+anime-yuzu.com##.code-block
+
