@@ -16,5 +16,4 @@ animeyuzu.com###single > div.content:nth-child(2) > center:nth-child(3) > div.co
 animeyuzu.com##.animekimi-banner
 anime-yuzu.com##[class*="ads"]
 anime-yuzu.com##[id*="ads"]
-anime-yuzu.com##.code-block
-
+anime-yuzu.com#?#div[class*="code-block-"]:has(img[alt="Advertisement"])
